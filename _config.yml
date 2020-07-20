@@ -1,16 +1,13 @@
 # Site settings
-title:          Bookingpad Product Updates
-description:    "The latest product news and updates from Bookingpad, the most advanced NDC-ready booking tool"
-url:            "https://updates.bookindpad.net/"
+title:          Ask Karin Changelog
+description:    "The latest product updates from Ask Karin."
+url:            "https://ask-karin.com/"
 theme:          tale
-
-# Google Analytics
-google_analytics: UA-77281199-7
 
 # Author
 author:
-  name:         AirGateway GmbH
-  url:          https://airgateway.com
+  name:         Anas Gamrani
+  url:          https://freelancer.com/u/Varulv1997
 
 # Build settings
 markdown:       kramdown
@@ -27,7 +24,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
+# - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
