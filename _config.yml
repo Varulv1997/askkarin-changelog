@@ -1,0 +1,40 @@
+# Site settings
+title:          Bookingpad Product Updates
+description:    "The latest product news and updates from Bookingpad, the most advanced NDC-ready booking tool"
+url:            "https://updates.bookindpad.net/"
+theme:          tale
+
+# Google Analytics
+google_analytics: UA-77281199-7
+
+# Author
+author:
+  name:         AirGateway GmbH
+  url:          https://airgateway.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+# exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale

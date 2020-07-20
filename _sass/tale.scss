@@ -1,0 +1,67 @@
+@import "tale/variables";
+@import "tale/base";
+@import "tale/code";
+@import "tale/post";
+@import "tale/syntax";
+@import "tale/layout";
+@import "tale/pagination";
+@import "tale/catalogue";
+
+@import url("https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700,800|Titillium+Web:400,400i,600,600i,700,700i,900|Montserrat:400,500,600,700&display=swap");
+
+.nav {
+  overflow: unset;
+  ul {
+    margin: 0;
+    position: unset;
+  }
+}
+
+.nav-brand {
+  display: flex;
+
+  h2 {
+    padding-left: 0.5rem;
+    font-weight: 300;
+    line-height: 1;
+
+    &.nav-title {
+      display: inline-flex;
+    }
+  }
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
+
+  ul {
+    margin-bottom: 1rem;
+    @media (min-width: 600px) {
+      margin-top: 0;
+      padding: 0;
+    }
+  }
+}
+
+.catalogue {
+  &-title {
+    margin: 0 0 0.5rem;
+    letter-spacing: -0.01rem;
+  }
+
+  &-time {
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+
+  &-desc {
+    font-size: 1.2rem;
+  }
+}
