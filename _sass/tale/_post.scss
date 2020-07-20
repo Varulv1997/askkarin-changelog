@@ -2,7 +2,6 @@
   max-width: 640px;
   margin: 0 auto;
   padding: 3rem 0;
-
   &-info {
     color: $default-tint;
     font-family: $serif-secondary;
@@ -10,12 +9,10 @@
     font-weight: 700;
     letter-spacing: 0.5px;
     text-align: center;
-
     time {
       text-transform: uppercase;
     }
   }
-
   &-title {
     color: $default-shade;
     font-family: $sans-serif;
@@ -25,45 +22,36 @@
     text-align: center;
     letter-spacing: -0.01rem;
   }
-
   &-line {
     border-top: 0.4rem solid $red;
     display: block;
     margin: 0 auto 3rem;
     width: 4rem;
   }
-
   &-body {
     font-size: 1.125rem;
   }
-
   h2 {
     line-height: 1.4;
     margin: 2rem 0 1rem;
   }
-
   p {
     margin: 0 0 1.5rem;
     text-align: justify;
-
     &:first-of-type {
       font-size: 1.4rem;
     }
-
     img {
       padding: 1rem 0;
       border: 1px solid #f0f0f0;
     }
   }
-
   a:hover {
     text-decoration: underline;
   }
-
   img {
     margin: 0.5rem auto;
   }
-
   img + em {
     color: $default-tint;
     display: block;
@@ -72,8 +60,6 @@
     font-style: normal;
     text-align: center;
   }
-
-  // CSS for making emoji inline
   img.emoji {
     display: inline-block;
     left: 0;
