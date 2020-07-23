@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Update #51'
+title: 'Update 51'
 date: 2020-04-22T15:50:07.239Z
 ---
 Updated React Slider with news links.

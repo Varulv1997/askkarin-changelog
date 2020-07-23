@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Update #55 (Post-final)
+title: Update 55 (Post-final)
 date: 2020-05-05T19:49:56.876Z
 ---
 Updated map with advertisements for public section

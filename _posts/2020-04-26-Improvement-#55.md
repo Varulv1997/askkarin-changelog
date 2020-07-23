@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Improvement #55
+title: Improvement 55
 date: 2020-04-26T22:43:37.488Z
 ---
 Added Powerful Elasticsearch and Algolia
